@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library</title>
+        <link rel="stylesheet" href="../oldstyle.css">
+    </head>
+    <body>
+        <header>
+            <h1>Library</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="mission.html">Missions</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="Sitemap.html">Site Map</a></li>
+                    <li><a href="guestbook.html">Guestbook</a></li>
+                    <li><a href="links.html">Links</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div id="Newsletters" class="page_heading">
+                <a name="news"> </a>
+                <img src="../imgs/news.gif" alt="NEWS" width="55" height="55"> 
+                <p>NEWSLETTERS</p>
+            </div>
+            <form name="news_choose" method="get">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="year" size="1" onchange="swapOptions(document.news_choose.year.options[selectedIndex].text);">
+                    <option value="99"> 1999 </option>
+                    <option value="00"> 2000 </option>
+                    <option value="01"> 2001 </option>
+                    <option value="02"> 2002 </option>
+                    <option value="03" selected="">_2003_</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;
+                <select name="month" size="1">
+                    <option value="01"> January </option>
+                    <option value="02"> February</option>
+                    <option value="03"> March </option>
+                    <option value="04"> April </option>
+                    <option value="05"> May </option>
+                    <option value="06"> June </option>
+                    <option value="07"> July </option>
+                    <option value="08"> August </option>
+                    <option value="09"> September </option>
+                    <option value="10" selected=""> October </option>
+                    <option value="11"> November </option>
+                    <option value="12"> Demcember </option>
+                </select>
+                &nbsp;&nbsp;&nbsp;
+                <input type="submit" name="submit" value="Get Newsletter" target="_top" onclick="genurl(); return false;">
+            </form>
+        </div>
+        <div class="container">
+            <div id="General Articles" class="section">
+                <h2>General Articles</h2>
+                <ul>
+                    <li><a href="http://www.mcwar.org/articles/atl_hurr/hurr_intro.html">Atlantic Hurricanes: An Introduction [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/CONVOY.html">Convoy Chasing Guidelines [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/hail.html">Hail Formation and Effects [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/CONVOY.html">Intro to Lightning and Lightning Safety [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/noreasters/NorEasters.html">Nor'easters: Comprehension. Preparation. Survival. [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/hail.html">Hail Formation and Effects [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/Tstorm_safety.html">Severe Weather Safety Guide (from NOAA) [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/terrors/Tornado_Terrors.html">Tornado Terrors [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/types/tstorm_types.html">Types of Thunderstorms [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/clouds.html">Understanding Cloud Formation [HTML]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/landfall/landfall.html">U.S. Hurricane Landfalls: Climatology and Impacts [HTML]</a></li>
+                </ul>
+            </div>
+            <div id="CAFE" class="section">
+                <h2>CAFE Articles (Computer-Aided Forecasting Exhibition)</h2>
+                <ul>
+                    <li><a href="http://www.mcwar.org/articles/cafe/gw/gravwaves.html">Gravity Waves [HTML | PDF]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/cafe/grid/grid.html">Grid Forecasting [HTML | PDF]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/cafe/overview/forecasting.html">Overview of Tools [HTML | PDF]</a></li>
+                    <li><a href="http://www.mcwar.org/articles/cafe/stability/stability.html">Stability Indices [HTML | PDF]</a></li>
+                </ul>
+            </div>
+            <div id="Weather Tidbits" class="section">
+                <h2>Weather Tidbits</h2>
+                <a href="http://www.mcwar.org/members/team_meso.html">Stability Indices [HTML | PDF]</a>
+                <p>Click on the link above to enter the members-only page... if you're a member and forgot your username/password, email the webmaster. If you're not a member and would like to be, visit the Members Page or download the Membership Form.</p>
+                <p>Weather Tidbits is something we started to enhance our proactive education program. On occasion, a member may initiate a discussion on a topic of choice... maybe just bringing up a weather-related definition or concept, or discussing current weather in some part of the country. Open discussion is encouraged among all members. We are all teachers, and we are all students!</p>
+            </div>
+            <div id="Media Coverage" class="section">
+                <h2>Media Coverage</h2>
+                <ul>
+                    <li><a href="#">Pittsburgh Post-Gazette; Pittsburgh, PA (6/14/98), (6/15/98)</a></li>
+                    <li><a href="#">Toledo Blade; Toledo, OH (6/28/98), (6/29/98)</a></li>
+                    <li><a href="#">Millbrook Round Table; Millbrook, NY (see "An American Odyssey")</a></li>
+                    <li><a href="#">Reading Eagle; Reading, PA (7/25/98)</a></li>
+                    <li><a href="#">Pittsburgh Post-Gazette; Pittsburgh, PA (8/26/98), (8/27/98), (8/28/98) - Hurricane Bonnie</a></li>
+                    <li><a href="#">auf einen Blick; Hamburg, Germany (3/25/99)</a></li>
+                    <li><a href="#">Sunday News; Lancaster, PA (5/23/99)</a></li>
+                    <li><a href="#">Sunday News; Lancaster, PA (6/13/99)</a></li>
+                    <li><a href="#">Discover Magazine Online "Pick of the Web"; (3/00)</a></li>
+                    <li><a href="#">Pittsburgh Post-Gazette Online; Pittsburgh, PA (5/12/00 - 5/19/00)</a></li>
+                    <li><a href="#">Bangor Daily News; Bangor, ME (7/24/00)</a></li>
+                    <li><a href="#">Handheld Magazine; (3/01)</a></li>
+                    <li><a href="#">The Metro Net; Toledo, OH (4/26/01)</a></li>
+                    <li><a href="#">USA Today; (6/19/01)</a></li>
+                    <li><a href="#">Froggy 99.9 FM; Fargo, ND (6/20/01)</a></li>
+                    <li><a href="#">MSN Online; (7/30/01)</a></li>
+                    <li><a href="#">Lake Region Times Newspaper; Madison Lake, MN (8/15/01)</a></li>
+                    <li><a href="#">Millbrook Round Table; Millbrook, NY (7/18/02)</a></li>
+                    <li><a href="#">The News Messenger; (11/15/02)</a></li>
+                    <li><a href="#">The Kentucky Post; Covington, KY (11/30/02)</a></li>
+                    <li><a href="#">Campbell County Recorder; Campbell Co., KY (3/13/03)</a></li>
+                    <li><a href="#">ABC WTVG Channel 13; Toledo, OH (5/7/03)</a></li>
+                    <li><a href="#">KFAB AM Superstation; Cedar Rapids, IA (5/8/03)</a></li>
+                    <li><a href="#">Canadian Web Award; "Excellent Website" (10/03)</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 Multi-community Environmental Storm Observatory (MESO). All rights reserved.</p>
+        </footer>
+        <script src="../script.js"></script>
+    </body>
+</html>
